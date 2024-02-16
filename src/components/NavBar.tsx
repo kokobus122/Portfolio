@@ -46,7 +46,11 @@ const NavBar: FC<NavBarProps> = ({}) => {
           </Link>
         </li> */}
         <li>
-          <Link href="/#" className="hover:underline underline-offset-4">
+          <Link
+            href="https://github.com/kokobus122/portfolio"
+            target="_blank"
+            className="hover:underline underline-offset-4"
+          >
             github repo
           </Link>
         </li>
