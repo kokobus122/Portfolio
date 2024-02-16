@@ -33,7 +33,7 @@ const page: FC<pageProps> = ({}) => {
         <h1 className="font-bold text-primary py-2 text-xl">Discord</h1>
         <div>
           <div>
-            I'm also active on discord, tag:{" "}
+            I&apos;m also active on discord, tag:{" "}
             <p className="rounded-md border bg-card text-card-foreground shadow-sm inline px-1">
               kokobus#1234
             </p>

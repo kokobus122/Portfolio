@@ -45,8 +45,8 @@ const WorkSection: FC<WorkSectionProps> = ({}) => {
       {(page === 1 && (
         <article className="max-w-lg px-8 md:px-0 md:max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           {workData.map((work, index) => (
-            <Link href={`/work/${work.title.toLowerCase()}`}>
-              <Card key={index}>
+            <Link key={index} href={`/work/${work.title.toLowerCase()}`}>
+              <Card>
                 <CardHeader>
                   <CardTitle className="underline-offset-4 hover:underline text-xl md:text-2xl">
                     {work.title}

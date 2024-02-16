@@ -12,7 +12,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/Carousel";
 
-const page = () => {
+const Page = () => {
   const { toast } = useToast();
   const slug = useParams();
   const work = workData.find((work) => work.title.toLowerCase() === slug.slug);
@@ -102,4 +102,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -18,7 +18,7 @@ const page: FC<pageProps> = ({}) => {
         <h1 className="font-bold text-primary py-2 text-xl">About me</h1>
         <div>
           <p>
-            I'm a full-end developer with a passion for building web
+            I&apos;m a full-end developer with a passion for building web
             applications and learning new technologies. As of now, I study web
             development and try to expand my knowledge by taking on new
             challenges. Apart from coding, I enjoy playing video games with
