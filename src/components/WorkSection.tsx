@@ -18,7 +18,7 @@ import { workData } from "@/lib/work";
 interface WorkSectionProps {}
 
 const WorkSection: FC<WorkSectionProps> = ({}) => {
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState<number>(1);
   return (
     <section className="mx-6 md:mx-0">
       <nav className="flex h-5 items-center space-x-4 mb-4">
@@ -72,16 +72,16 @@ const WorkSection: FC<WorkSectionProps> = ({}) => {
             <Card>
               <CardHeader>
                 <CardTitle className="underline-offset-4 hover:underline text-xl md:text-2xl">
-                  LCJ Express
+                CForum
                 </CardTitle>
-                <CardDescription>Transport/Logistics Site</CardDescription>
+                <CardDescription>Reddit Clone</CardDescription>
               </CardHeader>
               <CardContent>
                 <Image
-                  src="https://utfs.io/f/95ec3864-e425-4cc7-8599-f71a26fe58c5-7ebxvh.jpg"
+                  src="https://utfs.io/f/d390db3d-d16a-4b8f-8255-3cf4259ff239-mjj5gi.jpg"
                   width={1920}
                   height={1080}
-                  alt="Wave"
+                  alt="CForum"
                   className="rounded-lg"
                 />
               </CardContent>

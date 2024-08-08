@@ -11,15 +11,27 @@ export const workData = [
         }
     },
     {
-        title: "CForum",
-        titledesc: "Reddit Clone",
-        link: "https://forum-six.vercel.app/",
-        stack: "Next.js, Prisma, Tailwind, Auth, MySQL",
-        github: "https://github.com/kokobus122/forum",
+        title: "SB Auto Review",
+        titledesc: "Hypixel Skyblock Stat Reviewer",
+        link: "https://sb-auto-review.vercel.app/",
+        stack: "Next.js, Tailwind, Auth",
+        github: "https://github.com/kokobus122/SBAutoReview",
         date: "2024",
         images: {
-            image1: "https://utfs.io/f/d390db3d-d16a-4b8f-8255-3cf4259ff239-mjj5gi.jpg",
-            image2: "https://utfs.io/f/e9a945ce-56ce-402b-ae41-b6343a8518fb-bhmul0.jpg",
+            image1: "https://utfs.io/f/04048ae1-4062-4ffd-be2a-430b6ae7f823-755cuk.jpg",
+            image2: "https://utfs.io/f/9f9ea36e-1289-4ba1-9343-0a3e77065b03-755dii.jpg",
+        }
+    },
+    {
+        title: "GDPL",
+        titledesc: "Geometry Dash Platformer List",
+        link: "https://gdpl.vercel.app/",
+        stack: "Next.js, Tailwind",
+        github: "https://github.com/kokobus122/GDPL",
+        date: "2023/2024",
+        images: {
+            image1: "https://utfs.io/f/8df6077f-0378-4d98-8a5b-d29b8f2113c5-755f02.jpg",
+            image2: "https://utfs.io/f/fbbe7a88-58d8-4e92-9ce5-bb8520ac96f7-755f1p.jpg",
         }
     },
     {

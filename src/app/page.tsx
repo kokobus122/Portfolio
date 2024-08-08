@@ -11,14 +11,14 @@ const page: FC<pageProps> = ({}) => {
     <main className="mx-6 md:mx-0 text-sm md:text-base">
       <section className="py-5">
         <h1 className="text-4xl font-bold">koko 🥥</h1>
-        <h2 className="leading-8">Front-end developer</h2>
+        <h2 className="leading-8">Full-stack developer</h2>
       </section>
 
       <article className="mb-4">
         <h1 className="font-bold text-primary py-2 text-xl">About me</h1>
         <div>
           <p>
-            I&apos;m a front-end developer with a passion for building web
+            I&apos;m a full-stack developer with a passion for building web
             applications and learning new technologies. As of now, I study web
             development and try to expand my knowledge by taking on new
             challenges in backend. Apart from coding, I enjoy playing video
