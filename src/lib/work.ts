@@ -11,7 +11,7 @@ export const workData = [
         }
     },
     {
-        title: "SB Auto Review",
+        title: "SBAutoReview",
         titledesc: "Hypixel Skyblock Stat Reviewer",
         link: "https://sb-auto-review.vercel.app/",
         stack: "Next.js, Tailwind, Auth",
