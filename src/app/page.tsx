@@ -31,7 +31,7 @@ const page: FC<pageProps> = ({}) => {
         <h1 className="font-bold text-primary py-2 text-xl">Work</h1>
         <div>
           <p>
-            Most of my projects are built with Next.js and Tailwind CSS. The
+            Most of my projects are built with Next.js using TypeScript and Tailwind CSS. The
             main focus of my work is to create accessible and user-friendly
             applications available to everyone.
           </p>
