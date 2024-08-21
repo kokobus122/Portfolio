@@ -23,7 +23,7 @@ const page: FC<pageProps> = ({}) => {
               className="text-primary hover:underline underline-offset-4"
               href="mailto:kokobus123@gmail.com"
             >
-              here
+              kokobus123@gmail.com
             </Link>
             .
           </p>

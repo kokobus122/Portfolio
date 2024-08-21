@@ -46,30 +46,28 @@ const page: FC<pageProps> = ({}) => {
 
       <article>
         <h1 className="font-bold text-primary py-2 text-xl">Timeline</h1>
-        <div>
-          <div className="flex justify-between">
+        <ul className="space-y-4">
+          <li className="flex justify-between">
             <p>HTML5/CSS3</p>
-            <div className="flex gap-3 font-bold">2021</div>
-          </div>
-        </div>
-        <div className="pt-4">
-          <div className="flex justify-between">
+            <p className="flex gap-3 font-bold">2021</p>
+          </li>
+          <li className="flex justify-between">
             <p>JavaScript</p>
-            <div className="flex gap-3 font-bold">2022</div>
-          </div>
-        </div>
-        <div className="pt-4">
-          <div className="flex justify-between">
+            <p className="flex gap-3 font-bold">2022</p>
+          </li>
+          <li className="flex justify-between">
+            <p>React & Vite</p>
+            <p className="flex gap-3 font-bold">2023</p>
+          </li>
+          <li className="flex justify-between">
             <p>Prisma & Supabase</p>
-            <div className="flex gap-3 font-bold">2024</div>
-          </div>
-        </div>
-        <div className="pt-4">
-          <div className="flex justify-between">
+            <p className="flex gap-3 font-bold">2024</p>
+          </li>
+          <li className="flex justify-between">
             <p>React & Next.js</p>
-            <div className="flex gap-3 font-bold">2023 - present</div>
-          </div>
-        </div>
+            <p className="flex gap-3 font-bold">2023 - present</p>
+          </li>
+        </ul>
       </article>
 
       <article className="pt-4">
